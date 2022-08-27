@@ -1,4 +1,6 @@
 import os
+print("Benji's Region Locking 1.0")
+print("https://github.com/BenPI88/region-locking")
 os.system("rm code.txt")
 os.system("git clone https://github.com/BenPI88/region-locking-us && cd region-locking-us && cp code.txt ~/region-code.txt && cd .. && rm -rf region-locking-us")
 region-code = str(os.system("cat region-code.txt"))
